@@ -1,14 +1,7 @@
    *{ 
-    margin:0;
-    padding:0;
     box-sizing: border-box;
-   /* text-align: center; */
 }
  
-.jumbotron{
-    background-color: #f4f4f4;
-    text-align: center;
-}
 
 body{
     background-color: #f4f4f4;
@@ -19,81 +12,117 @@ body{
     width:960px;
     margin-left:225px;
     margin:0 auto;
+    background: url(../images/60.-Zircon.jpg);
+    background-size: cover;
+    
 }
 
 .container{
-    width:80%;
-    margin: auto auto;
+    width:100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
 }
 
+p{
+    margin-bottom: 0;
+}
+
+h1{
+    padding-bottom:20px;
+    line-height: 49px;
+    text-align: center;
+    border-bottom: 3px solid;
+}
 #main-header{
+    position:static;
+    z-index: 99;
+    width: 100%;
+    overflow:auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color:#fda75e;
+    background-color:#333;
     color: #fff;
+}
+
+#logo{
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700px;
+    line-height: 90px;
     text-align: center;
-}
-
-#navbar{
-    background-color: #333;
-    color:#fff;
-}
-
-#navbar ul{
-    padding: 0;
-    list-style: none;
-    text-align: center;
-}
-
-#navbar li{
-    display: inline;
-}
-
-#navbar a{
-    color:#fff;
     text-decoration: none;
-    font-size: 18px;
-    padding-right: 15px;
+    color:#fff;
 }
 
-#profile{
-    background-image: url(../images/showcase.jpg);
-    background-position: center right;
-    text-align: center;
+nav{
+    float: right;
+    margin-top: 25px;
 }
 
-#about-me{
-    padding:30px;
+nav a{
+    display: inline-block;
+    padding-left: 15px;
+    margin-left:15px;
+    line-height: 18px;
+    list-style: none;
+    color:#fff;
 }
+
+nav a:first-child{
+    border-left: 0 none;
+}
+
 
 #main-footer{
+    padding: 30px 0;
     background:#333;
     color:#fff;
     text-align: center;
+    clear: both;
+}
+
+  
+
+#main-container{
+    padding-top:130px;
+    min-height:calc(100vh-70px);
+    display: grid;
+    
+}
+
+#main-section{
+    float: left;
+    width:100px;
+    max-width: 960px;
+    padding:30px;
+    margin:0 0 40px;
+  
 }
 
 /* if and when condition is true - whatever btwn {} it will be applied to page - these rules take effect when the browser's width is either 768px or less*/
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    body{
-        background-color:#ed5050;
-    } 
+
+@media screen and (max-width: 980px) {
+    
+    
+    
 }
 
-// Medium devices (tablets, 768px and up)
+
 @media screen and (max-width: 768px) {
-    body{
-        background-color:#333;
-    }
-    .wrapper{
-        width: 600px;
+    header,
+    nav{
+        float: none;
+        text-align: center;
+        width: 100%;
     }
 }
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-     body{
-         background-color:
-     }}
+@media screen and (min-width: 640px) {
+    .grid{
+        display: grid;
+        grid-template-columns:
+        
