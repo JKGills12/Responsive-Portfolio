@@ -1,0 +1,99 @@
+   *{ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   /* text-align: center; */
+}
+ 
+.jumbotron{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height:32px;
+    width:960px;
+    margin-left:225px;
+    margin:0 auto;
+}
+
+.container{
+    width:80%;
+    margin: auto auto;
+}
+
+#main-header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#fda75e;
+    color: #fff;
+    text-align: center;
+}
+
+#navbar{
+    background-color: #333;
+    color:#fff;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#profile{
+    background-image: url(../images/showcase.jpg);
+    background-position: center right;
+    text-align: center;
+}
+
+#about-me{
+    padding:30px;
+}
+
+#main-footer{
+    background:#333;
+    color:#fff;
+    text-align: center;
+}
+
+/* if and when condition is true - whatever btwn {} it will be applied to page - these rules take effect when the browser's width is either 768px or less*/
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    body{
+        background-color:#ed5050;
+    } 
+}
+
+// Medium devices (tablets, 768px and up)
+@media screen and (max-width: 768px) {
+    body{
+        background-color:#333;
+    }
+    .wrapper{
+        width: 600px;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+     body{
+         background-color:
+     }}
