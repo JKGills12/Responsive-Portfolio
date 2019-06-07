@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
  
-
 body{
     background-color: #f4f4f4;
     color: #555;
@@ -14,7 +13,6 @@ body{
     margin:0 auto;
     background: url(../images/60.-Zircon.jpg);
     background-size: cover;
-    
 }
 
 .container{
@@ -24,16 +22,13 @@ body{
     clear: both;
 }
 
-p{
-    margin-bottom: 0;
-}
-
 h1{
     padding-bottom:20px;
     line-height: 49px;
     text-align: center;
     border-bottom: 3px solid;
 }
+
 #main-header{
     position:static;
     z-index: 99;
@@ -45,7 +40,6 @@ h1{
 }
 
 #logo{
-    
     width: 250px;
     height: 90px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -71,9 +65,6 @@ nav a{
     color:#fff;
 }
 
-nav a:first-child{
-    border-left: 0 none;
-}
 
 
 #main-footer{
